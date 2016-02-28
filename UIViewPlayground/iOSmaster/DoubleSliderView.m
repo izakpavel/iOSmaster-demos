@@ -11,6 +11,10 @@
 @property (nonatomic, strong) UIView * minBulletView;
 @property (nonatomic, strong) UIView * maxBulletView;
 @property (nonatomic, strong) UIView * trackView;
+
+// panning
+@property (nonatomic, strong) UIView * draggedView;
+@property (nonatomic, assign) CGPoint touchOffset;
 @end
 
 @implementation DoubleSliderView
@@ -39,6 +43,10 @@
         _maxBulletView = [[UIView alloc] init];
         _maxBulletView.backgroundColor = [UIColor lightGrayColor];
         [self addSubview:_maxBulletView];
+        
+        [_minBulletView addGestureRecognizer: [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(bulletPanned:)]];
+        [_maxBulletView addGestureRecognizer: [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(bulletPanned:)]];
+        
     }
     return self;
 }
@@ -56,5 +64,35 @@
     CGFloat trackWidth = self.frame.size.width-_bulletSize;
     CGFloat xCoord = trackWidth*relativePosition;
     return CGRectMake(xCoord, (self.frame.size.height-_bulletSize)/2, _bulletSize, _bulletSize);
+}
+
+- (void) bulletPanned:(UIPanGestureRecognizer *) recognizer {
+    NSLog(@"%f\t%f", _min, _max);
+    switch (recognizer.state) {
+        case UIGestureRecognizerStateBegan:
+            _draggedView = recognizer.view;
+            _touchOffset = [recognizer locationInView:_draggedView];
+            break;
+        
+        case UIGestureRecognizerStateChanged:
+            if (_draggedView && _draggedView==recognizer.view && self.frame.size.width>0) {
+                CGPoint globalOffset = [recognizer locationInView:self];
+                float xRatio = (globalOffset.x-_touchOffset.x)/(self.frame.size.width-_bulletSize);
+                NSLog(@"x ratio%f", xRatio);
+                xRatio = MAX(MIN(1, xRatio), 0);
+                ;
+                if (_draggedView==_minBulletView) {
+                    _min = MIN(_max, xRatio);
+                }
+                else {
+                    _max = MAX(_min, xRatio);
+                }
+                [self setNeedsLayout];
+            }
+            break;
+        default:
+            _draggedView = nil;
+            break;
+    }
 }
 @end
