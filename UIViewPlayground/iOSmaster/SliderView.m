@@ -12,6 +12,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
+        self.backgroundColor = [UIColor whiteColor];
         _doubleSliderView = [[DoubleSliderView alloc] init];
         [self addSubview:_doubleSliderView];
     }
