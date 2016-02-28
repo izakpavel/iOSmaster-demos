@@ -17,6 +17,7 @@
 		1B624B151C8300AA00F44DF7 /* AutolayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624B141C8300AA00F44DF7 /* AutolayoutViewController.m */; };
 		1B624B181C83057B00F44DF7 /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624B171C83057B00F44DF7 /* SliderView.m */; };
 		1B624B1B1C83059100F44DF7 /* DoubleSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624B1A1C83059100F44DF7 /* DoubleSliderView.m */; };
+		1BDE3C401C83954F0034E3C7 /* AutolayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE3C3F1C83954F0034E3C7 /* AutolayoutView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		1B624B171C83057B00F44DF7 /* SliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderView.m; sourceTree = "<group>"; };
 		1B624B191C83059100F44DF7 /* DoubleSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleSliderView.h; sourceTree = "<group>"; };
 		1B624B1A1C83059100F44DF7 /* DoubleSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleSliderView.m; sourceTree = "<group>"; };
+		1BDE3C3E1C83954F0034E3C7 /* AutolayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutView.h; sourceTree = "<group>"; };
+		1BDE3C3F1C83954F0034E3C7 /* AutolayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutolayoutView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				1B624B171C83057B00F44DF7 /* SliderView.m */,
 				1B624B191C83059100F44DF7 /* DoubleSliderView.h */,
 				1B624B1A1C83059100F44DF7 /* DoubleSliderView.m */,
+				1BDE3C3E1C83954F0034E3C7 /* AutolayoutView.h */,
+				1BDE3C3F1C83954F0034E3C7 /* AutolayoutView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				1B624AF51C82F85800F44DF7 /* AppDelegate.m in Sources */,
 				1B624B181C83057B00F44DF7 /* SliderView.m in Sources */,
 				1B624B151C8300AA00F44DF7 /* AutolayoutViewController.m in Sources */,
+				1BDE3C401C83954F0034E3C7 /* AutolayoutView.m in Sources */,
 				1B624B121C83007D00F44DF7 /* SliderViewController.m in Sources */,
 				1B624B1B1C83059100F44DF7 /* DoubleSliderView.m in Sources */,
 				1B624AF21C82F85800F44DF7 /* main.m in Sources */,
@@ -340,6 +346,7 @@
 				1B624B061C82F85800F44DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

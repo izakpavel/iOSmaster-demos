@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AutolayoutView.h"
 
 @interface AutolayoutViewController : UIViewController
-
+    @property (nonatomic, strong) AutolayoutView * autolayoutView;
 @end
