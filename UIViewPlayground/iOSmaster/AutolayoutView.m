@@ -44,6 +44,7 @@
         _bottomButton.translatesAutoresizingMaskIntoConstraints = NO;
         _fillerView.translatesAutoresizingMaskIntoConstraints = NO;
         
+        
         // set autolayout rules
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-padding-[_topLabel]-[_fillerView]-padding-|" options:0 metrics:metrics views:views]];
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-padding-[_bottomLabel]-[_fillerView]-padding-|" options:0 metrics:metrics views:views]];
@@ -56,6 +57,9 @@
         
         [self addConstraint:[NSLayoutConstraint constraintWithItem:_bottomLabel attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:_fillerView attribute:NSLayoutAttributeBottom multiplier:1 constant:0]];
         
+        // TODO scrollview
+        // TODO table
+        // TODO animate
         
     }
     return self;

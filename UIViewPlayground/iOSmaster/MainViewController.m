@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "AutolayoutViewController.h"
+#import "AutolayoutTableViewController.h"
 #import "SliderViewController.h"
 #import "MainView.h"
 
@@ -22,8 +23,8 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _chapters = @[@"Double slider", @"Autolayout"];
-        _viewControllerClasses = @[[SliderViewController class], [AutolayoutViewController class]];
+        _chapters = @[@"Double slider", @"Autolayout", @"AutoLayout table"];
+        _viewControllerClasses = @[[SliderViewController class], [AutolayoutViewController class], [AutolayoutTableViewController class]];
         self.title = @"Topics";
     }
     return self;

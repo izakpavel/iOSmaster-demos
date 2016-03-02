@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0C469A1C86D80B00D49E01 /* AutolayoutView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C46991C86D80B00D49E01 /* AutolayoutView2.m */; };
+		1B0C469D1C86E02B00D49E01 /* IntrinsicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C469C1C86E02B00D49E01 /* IntrinsicView.m */; };
+		1B0C46A01C86FE7700D49E01 /* AutolayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C469F1C86FE7700D49E01 /* AutolayoutTableViewController.m */; };
+		1B0C46A31C86FEC600D49E01 /* AutoLayoutTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C46A21C86FEC600D49E01 /* AutoLayoutTableView.m */; };
+		1B0C46A61C87011000D49E01 /* AutoLAyoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C46A51C87011000D49E01 /* AutoLAyoutTableViewCell.m */; };
 		1B624AF21C82F85800F44DF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624AF11C82F85800F44DF7 /* main.m */; };
 		1B624AF51C82F85800F44DF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624AF41C82F85800F44DF7 /* AppDelegate.m */; };
 		1B624AF81C82F85800F44DF7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624AF71C82F85800F44DF7 /* MainViewController.m */; };
@@ -21,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B0C46981C86D80B00D49E01 /* AutolayoutView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutView2.h; sourceTree = "<group>"; };
+		1B0C46991C86D80B00D49E01 /* AutolayoutView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutolayoutView2.m; sourceTree = "<group>"; };
+		1B0C469B1C86E02B00D49E01 /* IntrinsicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntrinsicView.h; sourceTree = "<group>"; };
+		1B0C469C1C86E02B00D49E01 /* IntrinsicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntrinsicView.m; sourceTree = "<group>"; };
+		1B0C469E1C86FE7700D49E01 /* AutolayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutTableViewController.h; sourceTree = "<group>"; };
+		1B0C469F1C86FE7700D49E01 /* AutolayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutolayoutTableViewController.m; sourceTree = "<group>"; };
+		1B0C46A11C86FEC600D49E01 /* AutoLayoutTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTableView.h; sourceTree = "<group>"; };
+		1B0C46A21C86FEC600D49E01 /* AutoLayoutTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableView.m; sourceTree = "<group>"; };
+		1B0C46A41C87011000D49E01 /* AutoLAyoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLAyoutTableViewCell.h; sourceTree = "<group>"; };
+		1B0C46A51C87011000D49E01 /* AutoLAyoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLAyoutTableViewCell.m; sourceTree = "<group>"; };
 		1B624AED1C82F85800F44DF7 /* iOSmaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSmaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B624AF11C82F85800F44DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B624AF31C82F85800F44DF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +119,8 @@
 				1B624B111C83007D00F44DF7 /* SliderViewController.m */,
 				1B624B131C8300AA00F44DF7 /* AutolayoutViewController.h */,
 				1B624B141C8300AA00F44DF7 /* AutolayoutViewController.m */,
+				1B0C469E1C86FE7700D49E01 /* AutolayoutTableViewController.h */,
+				1B0C469F1C86FE7700D49E01 /* AutolayoutTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -119,6 +136,14 @@
 				1B624B1A1C83059100F44DF7 /* DoubleSliderView.m */,
 				1BDE3C3E1C83954F0034E3C7 /* AutolayoutView.h */,
 				1BDE3C3F1C83954F0034E3C7 /* AutolayoutView.m */,
+				1B0C46981C86D80B00D49E01 /* AutolayoutView2.h */,
+				1B0C46991C86D80B00D49E01 /* AutolayoutView2.m */,
+				1B0C469B1C86E02B00D49E01 /* IntrinsicView.h */,
+				1B0C469C1C86E02B00D49E01 /* IntrinsicView.m */,
+				1B0C46A11C86FEC600D49E01 /* AutoLayoutTableView.h */,
+				1B0C46A21C86FEC600D49E01 /* AutoLayoutTableView.m */,
+				1B0C46A41C87011000D49E01 /* AutoLAyoutTableViewCell.h */,
+				1B0C46A51C87011000D49E01 /* AutoLAyoutTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -199,10 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B0C46A01C86FE7700D49E01 /* AutolayoutTableViewController.m in Sources */,
+				1B0C46A31C86FEC600D49E01 /* AutoLayoutTableView.m in Sources */,
+				1B0C469A1C86D80B00D49E01 /* AutolayoutView2.m in Sources */,
+				1B0C469D1C86E02B00D49E01 /* IntrinsicView.m in Sources */,
 				1B624AF81C82F85800F44DF7 /* MainViewController.m in Sources */,
 				1B624B0F1C82FA5B00F44DF7 /* MainView.m in Sources */,
 				1B624AF51C82F85800F44DF7 /* AppDelegate.m in Sources */,
 				1B624B181C83057B00F44DF7 /* SliderView.m in Sources */,
+				1B0C46A61C87011000D49E01 /* AutoLAyoutTableViewCell.m in Sources */,
 				1B624B151C8300AA00F44DF7 /* AutolayoutViewController.m in Sources */,
 				1BDE3C401C83954F0034E3C7 /* AutolayoutView.m in Sources */,
 				1B624B121C83007D00F44DF7 /* SliderViewController.m in Sources */,
