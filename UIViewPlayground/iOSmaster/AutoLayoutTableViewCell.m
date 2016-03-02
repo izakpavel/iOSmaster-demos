@@ -8,7 +8,7 @@
 
 #import "AutoLAyoutTableViewCell.h"
 
-@implementation AutoLAyoutTableViewCell
+@implementation AutoLayoutTableViewCell
 
 - (instancetype) init {
     self = [super initWithStyle:UITableViewCellStyleDefault reuseIdentifier:[self.class cellID]];

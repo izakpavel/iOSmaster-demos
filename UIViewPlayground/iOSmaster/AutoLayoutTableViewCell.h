@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AutoLAyoutTableViewCell : UITableViewCell
+@interface AutoLayoutTableViewCell : UITableViewCell
     @property (nonatomic, strong) UILabel * firstLabel;
     @property (nonatomic, strong) UILabel * secondLabel;
 

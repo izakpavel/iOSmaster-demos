@@ -46,9 +46,9 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    AutoLAyoutTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:[AutoLAyoutTableViewCell cellID]];
+    AutoLayoutTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:[AutoLayoutTableViewCell cellID]];
     if (!cell) {
-        cell = [[AutoLAyoutTableViewCell alloc] init];
+        cell = [[AutoLayoutTableViewCell alloc] init];
     }
     cell.firstLabel.text = _dataArray[indexPath.row];
     cell.secondLabel.text = _dataArray[indexPath.row];

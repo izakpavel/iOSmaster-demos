@@ -11,5 +11,5 @@
 #import "AutolayoutView2.h"
 
 @interface AutolayoutViewController : UIViewController
-    @property (nonatomic, strong) AutolayoutView2 * autolayoutView;
+    @property (nonatomic, strong) AutolayoutView * autolayoutView;
 @end

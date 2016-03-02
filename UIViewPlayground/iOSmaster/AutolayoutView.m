@@ -50,7 +50,7 @@
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-padding-[_bottomLabel]-[_fillerView]-padding-|" options:0 metrics:metrics views:views]];
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-padding-[_bottomButton]-padding-|" options:0 metrics:metrics views:views]];
         
-        [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-padding-[_topLabel(<=30)]-[_bottomLabel]->=0-[_bottomButton]-padding-|" options:0 metrics:metrics views:views]];
+        [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-padding-[_topLabel(<=30)]-[_bottomLabel]->=0-[_bottomButton(30)]-padding-|" options:0 metrics:metrics views:views]];
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-padding-[_fillerView]->=0-[_bottomButton(44)]-padding-|" options:0 metrics:metrics views:views]];
         
         [self addConstraint:[NSLayoutConstraint constraintWithItem:_topLabel attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:_bottomLabel attribute:NSLayoutAttributeHeight multiplier:1 constant:0]];

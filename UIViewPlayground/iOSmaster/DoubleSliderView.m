@@ -67,7 +67,6 @@
 }
 
 - (void) bulletPanned:(UIPanGestureRecognizer *) recognizer {
-    NSLog(@"%f\t%f", _min, _max);
     switch (recognizer.state) {
         case UIGestureRecognizerStateBegan:
             _draggedView = recognizer.view;
@@ -78,7 +77,6 @@
             if (_draggedView && _draggedView==recognizer.view && self.frame.size.width>0) {
                 CGPoint globalOffset = [recognizer locationInView:self];
                 float xRatio = (globalOffset.x-_touchOffset.x)/(self.frame.size.width-_bulletSize);
-                NSLog(@"x ratio%f", xRatio);
                 xRatio = MAX(MIN(1, xRatio), 0);
                 ;
                 if (_draggedView==_minBulletView) {
