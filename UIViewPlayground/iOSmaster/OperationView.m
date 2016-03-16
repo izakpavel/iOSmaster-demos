@@ -18,6 +18,7 @@
         _textfield = [[UITextField alloc] init];
         _textfield.backgroundColor = [UIColor lightTextColor];
         _textfield.placeholder = @"Enter number";
+        _textfield.accessibilityLabel = @"inputField";
         [self addSubview:_textfield];
         
         _submitButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -29,6 +30,7 @@
         [self addSubview:_progressView];
         
         _resultLabel = [[UILabel alloc] init];
+        //_resultLabel.accessibilityLabel = @"resultLabel";
         [self addSubview:_resultLabel];
     }
     return self;

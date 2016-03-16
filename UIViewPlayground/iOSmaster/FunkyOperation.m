@@ -65,7 +65,7 @@
             lastNotifiedProgress = _progress;
             [self notifyDelegateWithProgress];
         }
-        [NSThread sleepForTimeInterval:0.00001];
+        [NSThread sleepForTimeInterval:0.000001];
     }
     if (!self.cancelled) {
         [self notifyDelegateWithProgress];
