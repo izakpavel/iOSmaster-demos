@@ -10,6 +10,7 @@
 #import "AutolayoutViewController.h"
 #import "AutolayoutTableViewController.h"
 #import "SliderViewController.h"
+#import "OperationViewController.h"
 #import "MainView.h"
 
 @interface MainViewController () <UITableViewDataSource, UITableViewDelegate>
@@ -23,8 +24,8 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _chapters = @[@"Double slider", @"Autolayout", @"AutoLayout table"];
-        _viewControllerClasses = @[[SliderViewController class], [AutolayoutViewController class], [AutolayoutTableViewController class]];
+        _chapters = @[@"Double slider", @"Autolayout", @"AutoLayout table", @"Operation"];
+        _viewControllerClasses = @[[SliderViewController class], [AutolayoutViewController class], [AutolayoutTableViewController class], [OperationViewController class]];
         self.title = @"Topics";
     }
     return self;

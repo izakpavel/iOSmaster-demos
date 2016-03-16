@@ -12,6 +12,9 @@
 		1B0C46A01C86FE7700D49E01 /* AutolayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C469F1C86FE7700D49E01 /* AutolayoutTableViewController.m */; };
 		1B0C46A31C86FEC600D49E01 /* AutoLayoutTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C46A21C86FEC600D49E01 /* AutoLayoutTableView.m */; };
 		1B0C46A61C87011000D49E01 /* AutoLayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C46A51C87011000D49E01 /* AutoLayoutTableViewCell.m */; };
+		1B58BFA81C99415D00F6DD9D /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B58BFA71C99415D00F6DD9D /* OperationViewController.m */; };
+		1B58BFAB1C99417A00F6DD9D /* OperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B58BFAA1C99417A00F6DD9D /* OperationView.m */; };
+		1B58BFAE1C99470400F6DD9D /* FunkyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B58BFAD1C99470400F6DD9D /* FunkyOperation.m */; };
 		1B624AF21C82F85800F44DF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624AF11C82F85800F44DF7 /* main.m */; };
 		1B624AF51C82F85800F44DF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624AF41C82F85800F44DF7 /* AppDelegate.m */; };
 		1B624AF81C82F85800F44DF7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624AF71C82F85800F44DF7 /* MainViewController.m */; };
@@ -36,6 +39,12 @@
 		1B0C46A21C86FEC600D49E01 /* AutoLayoutTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableView.m; sourceTree = "<group>"; };
 		1B0C46A41C87011000D49E01 /* AutoLayoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTableViewCell.h; sourceTree = "<group>"; };
 		1B0C46A51C87011000D49E01 /* AutoLayoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableViewCell.m; sourceTree = "<group>"; };
+		1B58BFA61C99415D00F6DD9D /* OperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
+		1B58BFA71C99415D00F6DD9D /* OperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
+		1B58BFA91C99417A00F6DD9D /* OperationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationView.h; sourceTree = "<group>"; };
+		1B58BFAA1C99417A00F6DD9D /* OperationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationView.m; sourceTree = "<group>"; };
+		1B58BFAC1C99470400F6DD9D /* FunkyOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunkyOperation.h; sourceTree = "<group>"; };
+		1B58BFAD1C99470400F6DD9D /* FunkyOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunkyOperation.m; sourceTree = "<group>"; };
 		1B624AED1C82F85800F44DF7 /* iOSmaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSmaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B624AF11C82F85800F44DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B624AF31C82F85800F44DF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,6 +130,8 @@
 				1B624B141C8300AA00F44DF7 /* AutolayoutViewController.m */,
 				1B0C469E1C86FE7700D49E01 /* AutolayoutTableViewController.h */,
 				1B0C469F1C86FE7700D49E01 /* AutolayoutTableViewController.m */,
+				1B58BFA61C99415D00F6DD9D /* OperationViewController.h */,
+				1B58BFA71C99415D00F6DD9D /* OperationViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -144,6 +155,8 @@
 				1B0C46A21C86FEC600D49E01 /* AutoLayoutTableView.m */,
 				1B0C46A41C87011000D49E01 /* AutoLayoutTableViewCell.h */,
 				1B0C46A51C87011000D49E01 /* AutoLayoutTableViewCell.m */,
+				1B58BFA91C99417A00F6DD9D /* OperationView.h */,
+				1B58BFAA1C99417A00F6DD9D /* OperationView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -151,6 +164,8 @@
 		1B624B0C1C82FA1B00F44DF7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1B58BFAC1C99470400F6DD9D /* FunkyOperation.h */,
+				1B58BFAD1C99470400F6DD9D /* FunkyOperation.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -229,8 +244,11 @@
 				1B0C469A1C86D80B00D49E01 /* AutolayoutView2.m in Sources */,
 				1B0C469D1C86E02B00D49E01 /* IntrinsicView.m in Sources */,
 				1B624AF81C82F85800F44DF7 /* MainViewController.m in Sources */,
+				1B58BFAE1C99470400F6DD9D /* FunkyOperation.m in Sources */,
 				1B624B0F1C82FA5B00F44DF7 /* MainView.m in Sources */,
+				1B58BFAB1C99417A00F6DD9D /* OperationView.m in Sources */,
 				1B624AF51C82F85800F44DF7 /* AppDelegate.m in Sources */,
+				1B58BFA81C99415D00F6DD9D /* OperationViewController.m in Sources */,
 				1B624B181C83057B00F44DF7 /* SliderView.m in Sources */,
 				1B0C46A61C87011000D49E01 /* AutoLayoutTableViewCell.m in Sources */,
 				1B624B151C8300AA00F44DF7 /* AutolayoutViewController.m in Sources */,
