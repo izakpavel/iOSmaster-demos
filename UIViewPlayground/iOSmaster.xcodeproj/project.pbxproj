@@ -15,6 +15,7 @@
 		1B58BFA81C99415D00F6DD9D /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B58BFA71C99415D00F6DD9D /* OperationViewController.m */; };
 		1B58BFAB1C99417A00F6DD9D /* OperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B58BFAA1C99417A00F6DD9D /* OperationView.m */; };
 		1B58BFAE1C99470400F6DD9D /* FunkyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B58BFAD1C99470400F6DD9D /* FunkyOperation.m */; };
+		1B58BFB61C99587E00F6DD9D /* iOSmasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B58BFB51C99587E00F6DD9D /* iOSmasterTests.m */; };
 		1B624AF21C82F85800F44DF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624AF11C82F85800F44DF7 /* main.m */; };
 		1B624AF51C82F85800F44DF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624AF41C82F85800F44DF7 /* AppDelegate.m */; };
 		1B624AF81C82F85800F44DF7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624AF71C82F85800F44DF7 /* MainViewController.m */; };
@@ -27,6 +28,16 @@
 		1B624B1B1C83059100F44DF7 /* DoubleSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B624B1A1C83059100F44DF7 /* DoubleSliderView.m */; };
 		1BDE3C401C83954F0034E3C7 /* AutolayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE3C3F1C83954F0034E3C7 /* AutolayoutView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B58BFB81C99587E00F6DD9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B624AE51C82F85800F44DF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B624AEC1C82F85800F44DF7;
+			remoteInfo = iOSmaster;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1B0C46981C86D80B00D49E01 /* AutolayoutView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutView2.h; sourceTree = "<group>"; };
@@ -45,6 +56,9 @@
 		1B58BFAA1C99417A00F6DD9D /* OperationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationView.m; sourceTree = "<group>"; };
 		1B58BFAC1C99470400F6DD9D /* FunkyOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunkyOperation.h; sourceTree = "<group>"; };
 		1B58BFAD1C99470400F6DD9D /* FunkyOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunkyOperation.m; sourceTree = "<group>"; };
+		1B58BFB31C99587E00F6DD9D /* iOSmasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSmasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B58BFB51C99587E00F6DD9D /* iOSmasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSmasterTests.m; sourceTree = "<group>"; };
+		1B58BFB71C99587E00F6DD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B624AED1C82F85800F44DF7 /* iOSmaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSmaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B624AF11C82F85800F44DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B624AF31C82F85800F44DF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +83,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1B58BFB01C99587E00F6DD9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1B624AEA1C82F85800F44DF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,10 +100,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B58BFB41C99587E00F6DD9D /* iOSmasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B58BFB51C99587E00F6DD9D /* iOSmasterTests.m */,
+				1B58BFB71C99587E00F6DD9D /* Info.plist */,
+			);
+			path = iOSmasterTests;
+			sourceTree = "<group>";
+		};
 		1B624AE41C82F85800F44DF7 = {
 			isa = PBXGroup;
 			children = (
 				1B624AEF1C82F85800F44DF7 /* iOSmaster */,
+				1B58BFB41C99587E00F6DD9D /* iOSmasterTests */,
 				1B624AEE1C82F85800F44DF7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				1B624AED1C82F85800F44DF7 /* iOSmaster.app */,
+				1B58BFB31C99587E00F6DD9D /* iOSmasterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +205,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1B58BFB21C99587E00F6DD9D /* iOSmasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B58BFBA1C99587E00F6DD9D /* Build configuration list for PBXNativeTarget "iOSmasterTests" */;
+			buildPhases = (
+				1B58BFAF1C99587E00F6DD9D /* Sources */,
+				1B58BFB01C99587E00F6DD9D /* Frameworks */,
+				1B58BFB11C99587E00F6DD9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B58BFB91C99587E00F6DD9D /* PBXTargetDependency */,
+			);
+			name = iOSmasterTests;
+			productName = iOSmasterTests;
+			productReference = 1B58BFB31C99587E00F6DD9D /* iOSmasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1B624AEC1C82F85800F44DF7 /* iOSmaster */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B624B041C82F85800F44DF7 /* Build configuration list for PBXNativeTarget "iOSmaster" */;
@@ -199,6 +249,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = trinerdis;
 				TargetAttributes = {
+					1B58BFB21C99587E00F6DD9D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1B624AEC1C82F85800F44DF7;
+					};
 					1B624AEC1C82F85800F44DF7 = {
 						CreatedOnToolsVersion = 7.1;
 					};
@@ -218,11 +272,19 @@
 			projectRoot = "";
 			targets = (
 				1B624AEC1C82F85800F44DF7 /* iOSmaster */,
+				1B58BFB21C99587E00F6DD9D /* iOSmasterTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1B58BFB11C99587E00F6DD9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1B624AEB1C82F85800F44DF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,6 +297,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B58BFAF1C99587E00F6DD9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B58BFB61C99587E00F6DD9D /* iOSmasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1B624AE91C82F85800F44DF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,6 +331,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1B58BFB91C99587E00F6DD9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B624AEC1C82F85800F44DF7 /* iOSmaster */;
+			targetProxy = 1B58BFB81C99587E00F6DD9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		1B624AFE1C82F85800F44DF7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -273,6 +351,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1B58BFBB1C99587E00F6DD9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSmasterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.trinerdis.iOSmasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSmaster.app/iOSmaster";
+			};
+			name = Debug;
+		};
+		1B58BFBC1C99587E00F6DD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSmasterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cz.trinerdis.iOSmasterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSmaster.app/iOSmaster";
+			};
+			name = Release;
+		};
 		1B624B021C82F85800F44DF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -378,6 +482,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B58BFBA1C99587E00F6DD9D /* Build configuration list for PBXNativeTarget "iOSmasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B58BFBB1C99587E00F6DD9D /* Debug */,
+				1B58BFBC1C99587E00F6DD9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		1B624AE81C82F85800F44DF7 /* Build configuration list for PBXProject "iOSmaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

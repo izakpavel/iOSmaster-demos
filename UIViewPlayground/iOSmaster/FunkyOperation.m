@@ -37,8 +37,12 @@
     }
 }
 
++ (NSInteger) computeLargeNumber:(NSInteger) input {
+    return input*111111+123;
+}
+
 - (void)main {
-    NSInteger maxNumber = _input * 111111;
+    NSInteger maxNumber = [self.class computeLargeNumber:_input];
     NSInteger index = 0;
     NSInteger mod2sum = 0;
     NSInteger mod3sum = 0;

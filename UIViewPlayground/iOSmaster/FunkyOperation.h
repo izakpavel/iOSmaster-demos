@@ -24,4 +24,6 @@
     @property (nonatomic, weak) id<FunkyOperationDelegate> delegate; // delegate methods are called on background thread
 
 - (id) initWithInput:(NSInteger) input delegate:(id<FunkyOperationDelegate>) delegate;
+
++ (NSInteger) computeLargeNumber:(NSInteger) input;
 @end
